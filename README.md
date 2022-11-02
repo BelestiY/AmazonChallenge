@@ -10,4 +10,4 @@
 - We have three ways to execute the tests:
    - Right click on the test class, AmazonTests, and select Run As > TestNG Test
    - Right click on the testng.xml file and select Run As > TestNG Suite
-   - Using Jenkins: create a job in jenkins and provide the git link and give 'test' command in the Build Steps
+   - Using Jenkins: create a job in jenkins (using Maven project option) and provide the git repo link in the Git option under Source Code Management menu and give pom.xml file and install command in the Root POM option and Goals and options section under Build menu
